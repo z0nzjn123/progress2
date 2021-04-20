@@ -1,21 +1,19 @@
-# progress2.inc
+# progress2.inc - Edited by z0n
 
 A SA:MP UI library for rendering progress bars used to visualise all manner of data from health to a countdown timer.
 
 Library originally written by Flávio Toribio, Now maintained by Southclaws in version 2+ with new features.
 
-![Bars 1](bars-horizontal.gif)
+This revision has been removed from the border and looks like 3d progresses
 
-![Bars 2](bars-vertical.gif)
-
-![Bars 3](bars-all.gif)
+![Bars 1](img.png)
 
 ## Installation
 
 Simply install to your project:
 
 ```bash
-sampctl package install Southclaws/progress2
+sampctl package install z0nzjn123/progress2
 ```
 
 Include in your code and begin using the library:
