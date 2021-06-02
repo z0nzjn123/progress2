@@ -118,8 +118,7 @@ stock ShowPlayerProgressBar(playerid, PlayerBar:barid) {
 
 	pbar_Data[playerid][_:barid][pbar_show] = true;
 
-	//PlayerTextDrawShow(playerid, pbar_TextDraw[playerid][_:barid][pbar_back]);
-	//PlayerTextDrawShow(playerid, pbar_TextDraw[playerid][_:barid][pbar_fill]);
+	PlayerTextDrawShow(playerid, pbar_TextDraw[playerid][_:barid][pbar_fill]);
 	PlayerTextDrawShow(playerid, pbar_TextDraw[playerid][_:barid][pbar_main]);
 
 	return 1;
